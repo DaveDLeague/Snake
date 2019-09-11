@@ -39,6 +39,7 @@ public class Game implements ActionListener, KeyListener {
 		snake = new Snake(new Location(WIDTH / 2, HEIGHT / 2));
 
 		window = new JFrame("Snake");
+		window.setResizable(false);
 		panel = new JPanel() {
 			private static final long serialVersionUID = 1L;
 
